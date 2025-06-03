@@ -1,0 +1,169 @@
+ERROR:fastapi:Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:root:Session ID : None, User Query : Hi, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : None, User Query : Hi, Model : gemini-1.0-pro-vision-latest
+WARNING:langsmith.client:Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+INFO:root:Session ID : None, User Query : hi, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 09ae5387-3e7b-42d4-9de6-c135ca460329, AI Response : Hi there! How can I help you today?
+INFO:root:Session ID : 09ae5387-3e7b-42d4-9de6-c135ca460329, User Query : Hello, Model : gemini-2.0-flash
+INFO:root:Session ID : 09ae5387-3e7b-42d4-9de6-c135ca460329, AI Response : Hello! How can I assist you today?
+INFO:root:Session ID : 09ae5387-3e7b-42d4-9de6-c135ca460329, User Query : how are youuuuu?, Model : gemini-2.0-flash
+INFO:root:Session ID : 09ae5387-3e7b-42d4-9de6-c135ca460329, AI Response : I am doing well, thank you for asking! As an AI, I don't experience emotions or feelings, but I am functioning optimally and ready to assist you. How are you today?
+INFO:root:Session ID : 09ae5387-3e7b-42d4-9de6-c135ca460329, User Query : What is your name?, Model : gemini-2.0-flash
+INFO:root:Session ID : 09ae5387-3e7b-42d4-9de6-c135ca460329, AI Response : I am a large language model, trained by Google. I don't have a personal name.
+INFO:root:Session ID : None, User Query : hi, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : Hi there! How can I help you today?
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : What are some different malware techniques?, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : According to the text, some malware techniques include:
+
+*   **Polymorphism:** Changing the malware's code to avoid signature-based detection.
+*   **Code Obfuscation:** Making the code difficult to understand to evade analysis.
+*   **Encryption:** Encrypting parts of the malware to hide its malicious intent.
+*   **Fileless execution:** Operating without writing files to disk, making detection harder.
+*   **Zero-day exploits:** Taking advantage of previously unknown vulnerabilities.
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : tell me something about malware detection techniques using deep learning, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : Deep learning (DL) approaches are gaining traction in malware detection because traditional methods struggle with new and unseen malware. DL models can learn directly from data and generalize to novel inputs, making them more effective against evolving threats.
+
+Here's a bit more about DL in malware detection, based on the provided context and cited papers:
+
+*   **System Call Sequences:** DL can be used to classify malware based on the sequences of system calls they make (Kolosnjaji et al., 2017).
+*   **Process Behavior:** DL models can analyze process behavior to detect malware (Tobiyama et al., 2016).
+*   **Automatic Signature Generation:** DL can automatically generate malware signatures and classify malware (David and Netanyahu, 2015).
+*   **Hybrid Approaches:** Combining DL models like CNNs with other machine learning techniques like SVMs can improve malware detection (Kumar et al., 2021).
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : How much did Apple spend on Research and Development in fiscal year 2018, and how did it change compared to 2017?, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : In fiscal year 2018, Apple spent **$14,236 million** on Research and Development. This was a **23% increase** compared to the $11,581 million spent in 2017.
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : give a comparison about fiscal year 2018 compared to fiscal year 2017, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : Okay, here's a comparison of Apple's fiscal year 2018 to fiscal year 2017, based on the data provided:
+
+**Overall Financial Performance:**
+
+*   **Total Net Sales:** Increased by 16%, from $229,234 million in 2017 to $265,595 million in 2018.
+*   **Research and Development Expenses:** Increased by 23%, from $11,581 million in 2017 to $14,236 million in 2018.
+
+**Net Sales by Reportable Segment:**
+
+*   **Americas:** Increased by 16%, from $96,600 million to $112,093 million.
+*   **Europe:** Increased by 14%, from $54,938 million to $62,420 million.
+*   **Greater China:** Increased by 16%, from $44,764 million to $51,942 million. Note that 2017 had seen a decrease of 8% compared to 2016 in this region.
+*   **Japan:** Increased by 23%, from $17,733 million to $21,733 million.
+*   **Rest of Asia Pacific:** Increased by 15%, from $15,199 million to $17,407 million.
+
+**Net Sales by Product:**
+
+*   **iPhone:** Increased by 18%, from $141,319 million to $166,699 million.
+*   **iPad:** Decreased by 2%, from $19,222 million to $18,805 million.
+*   **Mac:** Decreased by 1%, from $25,850 million to $25,484 million.
+*   **Services:** Increased by 24%, from $29,980 million to $37,190 million.
+*   **Other Products:** Increased by 35%, from $12,863 million to $17,417 million.
+
+**Unit Sales by Product:**
+
+*   **iPhone:** Unit sales remained approximately the same (increased by less than 1%), from 216,756 thousand to 217,722 thousand.
+*   **iPad:** Decreased by less than 1%, from 43,753 thousand to 43,535 thousand.
+*   **Mac:** Decreased by 5%, from 19,251 thousand to 18,209 thousand.
+
+**Key Takeaways:**
+
+*   Apple experienced strong overall growth in 2018, driven primarily by increased net sales across most of its geographic segments and product categories.
+*   The iPhone remained the dominant product, with significant revenue growth despite relatively flat unit sales, indicating higher average selling prices.
+*   Services and Other Products showed substantial growth, highlighting the increasing importance of these categories to Apple's overall performance.
+*   While the iPad and Mac saw revenue declines, the iPad's decrease was relatively small compared to the Mac's. Mac unit sales also declined.
+*   Apple significantly increased its investment in Research and Development, reflecting a commitment to innovation and future product development.
+INFO:backoff:Backing off send_request(...) for 0.4s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : what is source of this information, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : The information I provided is based on the text you provided at the beginning of our conversation, specifically excerpts from Apple Inc.'s 2018 Form 10-K filing. I used the financial data and sales data tables within that document to make the comparisons.
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : comparison between fiscal year 2016 and 2015, Model : gemma-3n-e4b-it
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : I am sorry, but the excerpts you provided only included data from 2016, 2017, and 2018, so I cannot provide a comparison between fiscal year 2016 and 2015.
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : but it is in the pdf i provided, Model : gemma-3n-e4b-it
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : I apologize for the misunderstanding. While the information might be present in the complete PDF, the specific context you provided to me at the beginning of our conversation only included data from 2016, 2017, and 2018. My responses are limited to the information I have been given.
+
+To provide you with a comparison between fiscal year 2016 and 2015, I would need access to the relevant data from 2015 within the 10-K document. If you can provide that specific data, I'd be happy to make the comparison for you.
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, User Query : When did Microsoft acquire LinkedIn Corporation according to the quarterly information?, Model : gemma-3n-e4b-it
+INFO:root:Session ID : 428cbadc-cfe8-4702-a1a0-e2e49d81bab6, AI Response : I am sorry, but the quarterly information provided does not mention when Microsoft acquired LinkedIn Corporation.
+INFO:backoff:Backing off send_request(...) for 0.7s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+INFO:root:Session ID : None, User Query : Tell me about JPMC, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 9263178f-97d4-4fe8-b5bc-3ff9b87b7491, AI Response : JPMorgan Chase (JPMC) has several key groups including Management, Compliance, Control Management, and Corporate Responsibility. They also release financial performance information in quarterly earnings materials and reports (Form 10-Q and 10-K).
+
+The company emphasizes teamwork, loyalty, open communication, and good leadership. Recently, on January 25, 2024, JPMC announced new responsibilities for key executives and is reorganizing its business segments, expected to be effective in the second quarter of 2024.
+INFO:root:Session ID : None, User Query : Where is JPMC Operating?, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase & Co. operates in 48 states and Washington D.C. within the U.S., and in 65 countries globally.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : What is  rank of JPMC globally?, Model : gemini-1.0-pro-vision-latest
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase & Co. serves many of the world’s most prominent corporate, institutional and government clients globally.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : Tell me about JPMC, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase & Co. is a financial services firm based in the United States with branches in 48 states and Washington D.C., and 309,926 employees in 65 countries. As of December 31, 2023, it has $3.9 trillion in assets. The Firm is a leader in investment banking, financial services for consumers and small businesses, commercial banking, financial transaction processing and asset management. Under the J.P. Morgan and Chase brands, the Firm serves millions of customers, predominantly in the U.S., and many of the world’s most prominent corporate, institutional and government clients globally.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : What was JPMorgan Chase’s net income for 2023 and how did it compare to 2022 and 2021?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase’s net income for 2023 was $49.6 billion, compared to $35.6 billion for 2022 and $48.3 billion for 2021.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : How much progress has JPMorgan made toward its $2.5 trillion Sustainable Development Target as of 2023?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : As of the end of 2023, JPMorgan Chase has financed $1.4 trillion towards its $2.5 trillion Sustainable Development Target.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : What specific actions did JPMorgan take in Detroit that contributed to its recovery and economic development in 2023?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : In 2014, JPMorgan Chase made a $200 million, five-year commitment to Detroit’s recovery. Building on the success of this investment, in 2019, the Firm made an additional $50 million commitment over five years to support the city’s ongoing economic recovery. In 2023, JPMorgan Chase announced a new $20 million commitment to help revitalize Detroit’s neighborhoods and boost economic opportunity for residents.
+
+Specific initiatives included:
+1.  **Neighborhood Revitalization:**
+    *   Supporting projects that create affordable housing, improve commercial corridors, and enhance public spaces.
+    *   Partnering with local organizations to address the unique needs of different neighborhoods.
+2.  **Workforce Development:**
+    *   Providing job training and skills development programs to equip Detroiters with the tools they need to succeed in the workforce.
+    *   Connecting residents with employers in high-growth industries.
+3.  **Small Business Support:**
+    *   Offering capital and technical assistance to small business owners, particularly those from underserved communities.
+    *   Helping entrepreneurs start and grow their businesses, create jobs, and contribute to the local economy.
+4.  **Financial Health:**
+    *   Providing financial education and coaching to help residents build assets, manage debt, and achieve financial stability.
+    *   Increasing access to banking services and affordable financial products.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : What impact did the acquisition of First Republic Bank have on JPMorgan in 2023?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : On May 1, 2023, JPMorgan Chase acquired certain assets and assumed certain liabilities of First Republic Bank (“FRB”) from the Federal Deposit Insurance Corporation, as receiver. As of December 31, 2023, reported progress toward our SDT and/or any of its objectives does not include transactions executed by FRB prior to acquisition. Post-acquisition, transactions executed by JPMorgan Chase are counted toward our SDT.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : Which sectors has JPMorgan set net-zero decarbonization targets for?
+
+, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase has set net-zero decarbonization targets for the following sectors:
+
+*   Oil & Gas
+*   Electric Power
+*   Automotive Manufacturing
+*   Aviation
+*   Steel
+*   Commercial Real Estate
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : How much financing did JPMorgan provide toward its Green objective in 2023?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : In 2023, JPMorgan Chase provided $137 billion in financing toward its Green objective.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : How much capital did JPMorgan raise and extend toward sustainable development goals in 2023?
+
+, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : In 2023, JPMorgan Chase raised and extended $393 billion toward sustainable development goals.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : How many consecutive years has JPMorgan ranked #1 in investment banking fees and global markets revenue?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase has ranked #1 in investment banking fees for 14 consecutive years and #1 in global markets revenue for 15 consecutive years.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : Which JPMorgan funds are top-rated with a strong 10-year performance record?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : The JPMorgan U.S. Equity Fund, JPMorgan Small Cap Equity Fund, and JPMorgan International Research Enhanced Equity Fund are top-rated funds with a strong 10-year performance record.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : What were the components of JPMorgan Chase’s $2.5 trillion Sustainable Development Target (SDT), and how much progress was made by 2023?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase’s $2.5 trillion Sustainable Development Target (SDT) has two key objectives:
+
+*   **Green:** Financing activities that support climate action and environmental protection.
+*   **Social:** Financing activities that support inclusive growth.
+
+By the end of 2023, JPMorgan Chase had financed **$1.4 trillion** towards its $2.5 trillion Sustainable Development Target.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query : Which environmental sectors had updated decarbonization targets in JPMorgan’s 2023 Climate Report?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase set 2030 interim portfolio-level emissions intensity reduction targets for Iron & Steel, Cement and Aviation, aligning that work with science-based scenarios and evolving market practices for the fnancial sector.
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, User Query :  What were JPMorgan Chase’s initiatives in Detroit that contributed to its economic recovery and market share growth?, Model : gemini-2.0-flash
+INFO:root:Session ID : 47201bc0-a825-47ef-9ec5-1cf048eade70, AI Response : JPMorgan Chase made an initial commitment in 2014 to invest in Detroit. As a result, their market share in Detroit has increased, Chase consumer and small business accounts and balances have risen, and mortgage originations have improved. The city is an incubator of ideas, which they’ve learned from and taken to several other communities to drive lasting change.
+INFO:root:Session ID : None, User Query : What ESG frameworks and standards does JPMorgan Chase follow in their reporting?, Model : gemini-2.0-flash
+INFO:root:Session ID : 487aea48-aeaa-4e23-8285-05509abe0609, AI Response : I am sorry, but this document does not contain the answer to your question regarding which ESG frameworks and standards JPMorgan Chase follows in their reporting.
+INFO:root:Session ID : 487aea48-aeaa-4e23-8285-05509abe0609, User Query : How much capital did JPMorgan raise and extend toward sustainable development goals in 2023?, Model : gemini-2.0-flash
+INFO:root:Session ID : 487aea48-aeaa-4e23-8285-05509abe0609, AI Response : JPMorgan Chase raised $2 billion through the issuance of Fixed-to-Floating Rate Notes due 2027 on October 16, 2023. The net proceeds from this issuance, amounting to $1,995 million, were allocated to a Sustainable Asset Portfolio of eligible projects.
+INFO:root:Session ID : 487aea48-aeaa-4e23-8285-05509abe0609, User Query : How many consecutive years has JPMorgan ranked #1 in investment banking fees and global markets revenue?, Model : gemini-2.0-flash
+INFO:root:Session ID : 487aea48-aeaa-4e23-8285-05509abe0609, AI Response : I am sorry, but the document does not contain the answer to your question regarding how many consecutive years JPMorgan has ranked #1 in investment banking fees and global markets revenue.
+INFO:root:Session ID : None, User Query : How many consecutive years has JPMorgan ranked #1 in investment banking fees and global markets revenue?, Model : gemini-2.0-flash
+INFO:root:Session ID : a09658d1-8560-47b8-bc82-01a955fc8d08, AI Response : This document does not contain the answer to how many consecutive years JPMorgan has ranked #1 in investment banking fees and global markets revenue.
+INFO:root:Session ID : a09658d1-8560-47b8-bc82-01a955fc8d08, User Query : Tell about JPMC, Model : gemini-2.0-flash
+INFO:root:Session ID : a09658d1-8560-47b8-bc82-01a955fc8d08, AI Response : JPMorgan Chase & Co. (JPMC) is a financial services firm based in the United States with branches in 48 states and Washington D.C. As of December 31, 2023, it had 309,926 employees in 65 countries and $3.9 trillion in assets. The firm is a leader in investment banking, financial services for consumers and small businesses, commercial banking, financial transaction processing, and asset management. It serves millions of customers, mainly in the U.S., and many of the world’s most prominent corporate, institutional, and government clients globally, under the J.P. Morgan and Chase brands.
+INFO:root:Session ID : None, User Query : Tell me about JPMC, Model : gemini-2.0-flash
+INFO:root:Session ID : None, User Query : Tell me about JPMC, Model : gemini-2.0-flash
+INFO:root:Session ID : 94a62ca2-5adc-4347-8644-cf54d18906d4, AI Response : JPMorgan Chase (JPMC) has several key groups including Management, Compliance, Control Management, Corporate Responsibility and various Other Corporate groups. They release information about their financial performance in quarterly earnings materials, as well as quarterly and annual reports on Form 10-Q and Form 10-K, respectively.
+
+The company emphasizes building teamwork, loyalty, and morale, maintaining an open, entrepreneurial meritocracy, communicating honestly, clearly, and consistently, and striving to be good leaders.
+
+On January 25, 2024, JPMorgan Chase announced new responsibilities for several key executives and will be reorganizing its business segments, expected to be effective in the second quarter of 2024.
+INFO:root:Session ID : 94a62ca2-5adc-4347-8644-cf54d18906d4, User Query : Where is this company available?, Model : gemini-2.0-flash
+INFO:root:Session ID : 94a62ca2-5adc-4347-8644-cf54d18906d4, AI Response : JPMorgan Chase & Co. is a financial services firm based in the United States of America (“U.S.”), with branches in 48 states and Washington D.C. The firm has 309,926 employees in 65 countries.
