@@ -65,3 +65,9 @@ streamlit run frontend/app.py
 _**User:**_ "What is the refund policy mentioned in the company handbook?"
 
 _**Chatbot:**_ "According to the company handbook, the refund policy states that customers can request a refund within 30 days of purchase, provided they have a valid receipt."
+
+
+
+**Reference:**
+
+[Github Repo](https://github.com/PradipNichite/Youtube-Tutorials/tree/main/Langchain%20RAG%20Course%202024)
